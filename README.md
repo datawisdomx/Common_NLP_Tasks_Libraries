@@ -50,7 +50,7 @@ The data required some wrangling using regex for cleaning and junk data removal 
 
 Warning: Reddit being an open forum, some of the comment words are profane or not appropriate, so if you see them in the results please ignore them. Objective is to show how to perform NLP analysis. There are ways to filter such data but that will be done separately.
 
-Library, Alogorithms
+Library, Algorithms
 
 Transformers -  Text classification, Sentiment analysis, Summarization
 HuggingFace Transformer pipeline was used to perform text classification, sentiment analysis and summarization. It’s a very good library to use as it provides access to most of the widely used large pre-trained models like BERT, RoBerta, GPT etc via an easy pipeline. You can train your models too using it, but that requires more time and resources. You can also directly use tensorflow or pytorch to do the same, but that too requires a lot of effort, but good way to learn how to build your own NLP models.
